@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Quota-1" version="SHA-512:22cbb1b0ee026606e20364ab089aad376c7377889c02a8f9178dbacb35b2d27c615c8122909b5f43d32ea319af5ffe22c213114cd8f73995f18630b524caf8a5"/>
+        <VersionInfo resourceName="add-cors" version="SHA-512:52bbfc2e8b7fb33a67ceed04e5902c4c9cec39751102f5eb238416d948a69a9fc50d5f9e2af686e8ea54c21fb27e190c661012bc7cc76d59b33985855fcb4e32"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:6ce048fedf6e58dbab90c75194c9d38a0be7ad515555403f87ae0e32a293c5a038f5a6926a455204fd449ad98f923f2ac6fdcc19a9b0c2a9f7caadd0fe956156"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="openapi://association.json" version="SHA-512:15cd3b72c8116301119a6214d01bc2abb3e58660a9b962dc4fd5b00f13ac8f3669bb20440cd8c6651f45be02aba89e732539901bc0d076ce6e2abca1c8a97fa5"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:edac14149144de8b85e7f02018efb325d10f8b6e543cea9816d289cda57ba8bac533021e3d9cfb79ec1855f77206c80d6013cc1dea7d46dba29acf155073173b"/>
+    </TargetEndpoints>
+</Manifest>
