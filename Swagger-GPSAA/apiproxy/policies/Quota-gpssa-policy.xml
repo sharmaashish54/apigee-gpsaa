@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Quota async="false" continueOnError="false" enabled="true" name="Quota-gpssa-policy" type="calendar">
+<Quota type="calendar" async="false" continueOnError="false" enabled="true" name="Quota-gpssa-policy">
     <DisplayName>Quota-gpssa-policy</DisplayName>
+    <FaultRules/>
     <Properties/>
-    <Allow count="2" countRef="request.header.allowed_quota"/>
-    <Interval ref="request.header.quota_count">1</Interval>
-    <Distributed>false</Distributed>
-    <Synchronous>false</Synchronous>
-    <TimeUnit ref="request.header.quota_timeout">minute</TimeUnit>
+    <Allow count="2"/>
+    <Interval>1</Interval>
+    <Distributed>true</Distributed>
+    <Synchronous>true</Synchronous>
     <StartTime>2020-4-25 12:00:00</StartTime>
-    <AsynchronousConfiguration>
-        <SyncIntervalInSeconds>20</SyncIntervalInSeconds>
-        <SyncMessageCount>5</SyncMessageCount>
-    </AsynchronousConfiguration>
+    <TimeUnit ref="request.header.quota_timeout">minute</TimeUnit>
 </Quota>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SpikeArrest async="false" continueOnError="false" enabled="true" name="Spike-Arrest-policy">
     <DisplayName>Spike Arrest-policy</DisplayName>
+    <FaultRules/>
     <Properties/>
     <Identifier ref="request.header.apikey"/>
-    <Rate>2ps</Rate>
+    <Rate>2pm</Rate>
 </SpikeArrest>
