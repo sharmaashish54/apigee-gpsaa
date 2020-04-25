@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<APIProxy revision="1" name="Swagger-GPSAA">
+<APIProxy revision="4" name="Swagger-GPSAA">
+    <Basepaths>/swagger-gpsaa</Basepaths>
     <Basepaths>/swagger-gpsaa</Basepaths>
     <ConfigurationVersion majorVersion="4" minorVersion="0"/>
-    <CreatedAt>1587723552246</CreatedAt>
+    <CreatedAt>1587820001435</CreatedAt>
     <CreatedBy>asharma383@sapient.com</CreatedBy>
     <Description></Description>
     <DisplayName>Swagger-GPSAA</DisplayName>
-    <LastModifiedAt>1587723842094</LastModifiedAt>
+    <LastModifiedAt>1587825757245</LastModifiedAt>
     <LastModifiedBy>asharma383@sapient.com</LastModifiedBy>
-    <ManifestVersion>SHA-512:40dc9d9e4de876a453d87d0a88fc5736d7b7cd2c1d7dc6ba57cdc0a4b4decd591a6c367a308570c1e6d27eda275f7f93f41ad649665c5ba314cb1d737ff31f88</ManifestVersion>
+    <ManifestVersion>SHA-512:feea87fee15ac796a17af5df194f15a242694717a190c3640ac9bd220f20218bc86001d1dd69718cc83ada9bdb66ba4ef471d2b6818c52a4006fcb3d668bce5e</ManifestVersion>
     <Policies>
-        <Policy>Quota-1</Policy>
+        <Policy>Quota-gpssa-policy</Policy>
+        <Policy>Spike-Arrest-policy</Policy>
+        <Policy>Verify-API-Key-flow</Policy>
         <Policy>add-cors</Policy>
     </Policies>
     <ProxyEndpoints>
