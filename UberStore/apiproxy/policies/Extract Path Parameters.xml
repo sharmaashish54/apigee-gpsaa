@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="true" enabled="true" name="Extract Path Parameters">
+    <DisplayName>Extract Path Parameters</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <URIPath>
+        <Pattern ignoreCase="true">/pet/{petId}/uploadImage</Pattern>
+        <Pattern ignoreCase="true">/pet/{petId}</Pattern>
+        <Pattern ignoreCase="true">/store/order/{orderId}</Pattern>
+        <Pattern ignoreCase="true">/user/{username}</Pattern>
+    </URIPath>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <Source clearPayload="false">request</Source>
+    <VariablePrefix>pathParam</VariablePrefix>
+</ExtractVariables>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript timeLimit="200" async="false" continueOnError="true" enabled="true" name="Input Validation">
+    <DisplayName>Input Validation</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <IncludeURL>jsc://api.js</IncludeURL>
+    <IncludeURL>jsc://bundle-policify.js</IncludeURL>
+    <ResourceURL>jsc://input-validation.js</ResourceURL>
+</Javascript>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResponseCache async="false" continueOnError="false" enabled="true" name="cache">
+    <DisplayName>cache</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <CacheKey>
+        <Prefix></Prefix>
+        <KeyFragment ref="request.uri" type="string">hello-cache</KeyFragment>
+    </CacheKey>
+    <Scope>Exclusive</Scope>
+    <ExpirySettings>
+        <ExpiryDate></ExpiryDate>
+        <TimeOfDay></TimeOfDay>
+        <TimeoutInSec>60</TimeoutInSec>
+    </ExpirySettings>
+    <ExcludeErrorResponse>true</ExcludeErrorResponse>
+    <SkipCacheLookup></SkipCacheLookup>
+    <SkipCachePopulation></SkipCachePopulation>
+    <UseAcceptHeader>false</UseAcceptHeader>
+    <UseResponseCacheHeaders>false</UseResponseCacheHeaders>
+</ResponseCache>

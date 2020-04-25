@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="UberStore">
+    <Basepaths>/v2</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1587705008906</CreatedAt>
+    <CreatedBy>asharma383@sapient.com</CreatedBy>
+    <Description>Swagger Petstore</Description>
+    <DisplayName>UberStore</DisplayName>
+    <LastModifiedAt>1587705008906</LastModifiedAt>
+    <LastModifiedBy>asharma383@sapient.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:bf9f3b6717b3e7a9f2134efc7c2157910eacaf4c40860a3b8d373c5240b92cc2fdfed91eacec6b961c42f99963fb46bd51c4ac094d942d16de7fb8ed3b611d7d:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>Extract Path Parameters</Policy>
+        <Policy>FC_Proxy_FaultHandler</Policy>
+        <Policy>FC_Proxy_Logging</Policy>
+        <Policy>FC_Proxy_PostFlow</Policy>
+        <Policy>FC_Proxy_PreFlow</Policy>
+        <Policy>FC_Target_FaultHandler</Policy>
+        <Policy>FC_Target_PreFlow</Policy>
+        <Policy>Input Validation</Policy>
+        <Policy>cache</Policy>
+        <Policy>quota1</Policy>
+        <Policy>spikearrest</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://api.js</Resource>
+        <Resource>jsc://bundle-policify.js</Resource>
+        <Resource>jsc://input-validation.js</Resource>
+        <Resource>jsc://schema-validation.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

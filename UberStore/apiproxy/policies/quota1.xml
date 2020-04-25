@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quota type="calendar" async="false" continueOnError="false" enabled="true" name="quota1">
+    <DisplayName>quota1</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <Allow count="2500" countRef="request.header.allowed_quota"/>
+    <Interval ref="request.header.quota_count">2</Interval>
+    <DataStoreFailureModeOpen>false</DataStoreFailureModeOpen>
+    <Distributed>false</Distributed>
+    <PreciseAtSecondsLevel>false</PreciseAtSecondsLevel>
+    <StartTime>2020-04-24 10:36:56</StartTime>
+    <Synchronous>false</Synchronous>
+    <TimeUnit ref="request.header.quota_timeout">day</TimeUnit>
+</Quota>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Extract Path Parameters" version="SHA-512:ffc2f47c9646e9fda1ee96c71cc7a08853bfc3b16379c5331bd052c0e1f5cd4c744f487f59166f5204f051d8b44128f85cadd749420c9fc7377139c3b2ff5998"/>
+        <VersionInfo resourceName="FC_Proxy_FaultHandler" version="SHA-512:b3ee1e43d14fc0e5319da83ac4edf0d1ff68b7544ca2f42049498babc4f8ac109561fddd1102d509c97af775c8b0aa4da6fd823716ec889fab903f56954feafd"/>
+        <VersionInfo resourceName="FC_Proxy_Logging" version="SHA-512:6e1072e9b2ed1698d5aaaa61366f235edda986f23aa7ff35f7aac69235fd09baa872135c5cff5888134af684fe81677dcd5101732376e858314b4494894b9603"/>
+        <VersionInfo resourceName="FC_Proxy_PostFlow" version="SHA-512:516c000f9d74c822c34d4121405b7aa4a0691e85dfcf6d52749d20caec76de3549674faa9891745b582b50c95c24e78340041ce015f30f3c1f97134924a464e0"/>
+        <VersionInfo resourceName="FC_Proxy_PreFlow" version="SHA-512:00e38f8ab187bcb3334ef28817148b5f0ec9b51f05f57bbe3a77806654066d5b13b2ea40bb886c9cf51771cbaa27f1b3f8b537f8db5872abaf195b1d7f291929"/>
+        <VersionInfo resourceName="FC_Target_FaultHandler" version="SHA-512:c5684f9746a56bdf81bda417041017e4ff971453898c6e47f2f8f26eef2d1a9edd66577931dfe9fbf1d649e800c775289e50558467e145bec911f73af2a9c302"/>
+        <VersionInfo resourceName="FC_Target_PreFlow" version="SHA-512:97618ade573508eaa1b6dce47e0413304a4bab37a08cdde3c3c31ade09b0f7f0d0b99882f745cbd3de266c5a6cc33863f7c715cab5b021c4f50c4cdb4405ee13"/>
+        <VersionInfo resourceName="Input Validation" version="SHA-512:01ca070a8b6519232e57f1696daee0fc2a6eb8e3aebc17525e8c9e754f42f538fdf41e06ef8695471b9ee3e24bd7c3d56ad9bd825f1441b498196816d8f88855"/>
+        <VersionInfo resourceName="cache" version="SHA-512:12d5e931f9b5ffc776197a408cbe0983d92db255f2ad5c2fc50520c8acdbfb925fa7a6c08d1a2fe6ed047c52c324795dbaa816488db40037279a6d6ce24ae94a"/>
+        <VersionInfo resourceName="quota1" version="SHA-512:87abc172bbba676facbb691a90b341a0f5602c849bfc182dd04ba10c4658e8dd154bf6bc05ff2f91cc06fdfe93ca5d49471a45f515f2324041008fe877676f29"/>
+        <VersionInfo resourceName="spikearrest" version="SHA-512:3755574ff713d5ffffc3afa7ff7bb74f1c519e7d3d371b57de850e24b3dc9716ba1273f98b4554f7cba192b7def7c38d8ec3be35dbc4ebaf86ea8856a3be12f6"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:848daa2de4d775ed468c06e3fad84b2b5d59e6b053a62410478996841260e98f7a87b5061271f82a54a2a9a5594820589b0b2bc1aa7696a52aa78acb337f37a3"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://api.js" version="SHA-512:8fc176d7096a9fa80887e8e222cfe4e75d4f641552afb9670e9f78bc21d17e45fe279efd94cb25cfed233764d6dfd4cfc65b73bedc673593cef886ef21e9d6f3"/>
+        <VersionInfo resourceName="jsc://bundle-policify.js" version="SHA-512:01c60b47782acc6f55239f821831d8c97cd6a5dfec709ae665a48ecf53ffe55795713de06e99f03d66e4804dc8010a711183dad3f746e03e7e79d72d1d9b3576"/>
+        <VersionInfo resourceName="jsc://input-validation.js" version="SHA-512:64446929022ef8bab22c747e71ed1313f4782041d665106cd7a4d238e6dd9cecd161c68d70919b91d83e15820dd997699ecc30d9e32160d7391b41b90fabca5d"/>
+        <VersionInfo resourceName="jsc://schema-validation.js" version="SHA-512:9a56017eae38d5e79ece5b8d6fde6f90bda15ae314e70b6238b5322421e8408bd223c87699566d89d258e220200fbdf0ead834f6ed35bba56b58238ef95ff530"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:a6bc980e02a0a22e0b3c16f8b3ef6b893e924c5db838c9418f48a4466d1a7e9fc5d4da11d24987757530b3baec211285f9f7de834394c234999db6e9dd62a6ed"/>
+    </TargetEndpoints>
+</Manifest>
