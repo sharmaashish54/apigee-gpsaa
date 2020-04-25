@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SpikeArrest async="false" continueOnError="false" enabled="true" name="Spike-Arrest-policy">
+    <DisplayName>Spike Arrest-policy</DisplayName>
+    <Properties/>
+    <Identifier ref="request.header.apikey"/>
+    <Rate>2ps</Rate>
+</SpikeArrest>
