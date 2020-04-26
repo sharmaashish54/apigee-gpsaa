@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="10" name="Swagger-GPSAA">
+    <Basepaths>/v2/swagger-gpsaa</Basepaths>
+    <Basepaths>/v2/swagger-gpsaa</Basepaths>
+    <Basepaths>/v2/swagger-gpsaa</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1587905445124</CreatedAt>
+    <CreatedBy>asharma383@sapient.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>pensioner-info</DisplayName>
+    <LastModifiedAt>1587905445124</LastModifiedAt>
+    <LastModifiedBy>asharma383@sapient.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:927f4a26f581f99ad63f81dbf98df87b5297e9461b2c5aab5bce9f6eb17059927e5dd069f1e4703a1dba54a29f82ae206646c56804b6ea5fb0de8b2573b9fe65</ManifestVersion>
+    <Policies>
+        <Policy>Flow-Callout-Traffic-Management</Policy>
+        <Policy>Flow-Callout-key-verifier</Policy>
+        <Policy>add-cors</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

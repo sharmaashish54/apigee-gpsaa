@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Flow-Callout-Traffic-Management" version="SHA-512:9ae468527181b7e36658a095a8abcb6b4d697ff2eef65c00595bbe39ff31a718d56511fb2eb6c0eac0cb623a723955425a5917c5a5a934e90fe51863d946f8d3"/>
+        <VersionInfo resourceName="Flow-Callout-key-verifier" version="SHA-512:9591d47375acfd6ebf067dd84acb301a82a41cad6a43f6fc748d177ddd0b5a9e690cc28d6276150ecc51c78ee93965aa1052392dbd96aa3ebfd62c83c97aa791"/>
+        <VersionInfo resourceName="add-cors" version="SHA-512:c4f64fdd0d31aa0b9c930bd8f3d887fa26cc487e95dcca58992bbc54ffa0ee095f227ebfcf9fc12d259285a796e47afc18421a7ffb29c92c8788abe66b521b69"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:56a531adc7ac2ceb69626ef011a95a4a7e17ede05d2b8b8aae49408491b7257bf71f350554069d65e0807e11c278a020106e83560f692da15582102b8269e35b"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="openapi://association.json" version="SHA-512:15cd3b72c8116301119a6214d01bc2abb3e58660a9b962dc4fd5b00f13ac8f3669bb20440cd8c6651f45be02aba89e732539901bc0d076ce6e2abca1c8a97fa5"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:abb907df1ac9e39553db394e304fe67b0bcf8ec26308955b515f5790b96f9cdd73482fb72b0cef11cff1200b3ce0b34f8de1955df77c076547d37347b8dee2eb"/>
+    </TargetEndpoints>
+</Manifest>
